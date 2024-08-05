@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./asset/css/base.css">
     <link rel="stylesheet" href="./asset/css/main.css">
 </head>
@@ -16,8 +19,30 @@
             <div class="grid">
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item header__navbar-item--separate">Vào cửa hàng</li>
-                        <li class="header__navbar-item">Kết nối</li>
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">Vào
+                            cửa hàng
+                            <!-- Header QR code -->
+                            <div class="header__qr">
+                                <img src="asset/img/ảnh qr shopee.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="asset/img/appstore.png" alt="appstore"
+                                            class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="asset/img/ggplay.png" alt="ggplay" class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">Kết nối
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
                     </ul>
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item">
